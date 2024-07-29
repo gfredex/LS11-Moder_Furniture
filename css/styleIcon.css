@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'DudeShape';
-  src: url('./fonts/DudeShape.eot?shqls8');
-  src: url('./fonts/DudeShape.eot?shqls8#iefix') format('embedded-opentype'),
-    url('./fonts/DudeShape.ttf?shqls8') format('truetype'),
-    url('./fonts/DudeShape.woff?shqls8') format('woff'),
-    url('./fonts/DudeShape.svg?shqls8#DudeShape') format('svg');
+  src: url('../fonts/DudeShape.eot?shqls8');
+  src: url('../fonts/DudeShape.eot?shqls8#iefix') format('embedded-opentype'),
+    url('../fonts/DudeShape.ttf?shqls8') format('truetype'),
+    url('../fonts/DudeShape.woff?shqls8') format('woff'),
+    url('../fonts/DudeShape.svg?shqls8#DudeShape') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
