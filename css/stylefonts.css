@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'DM Sans 9pt';
+    src: url('DMSans-9ptItalic.eot');
+    src: url('DMSans-9ptItalic.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-9ptItalic.woff2') format('woff2'),
+        url('DMSans-9ptItalic.woff') format('woff'),
+        url('DMSans-9ptItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 9pt';
+    src: url('DMSans-9ptRegular.eot');
+    src: url('DMSans-9ptRegular.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-9ptRegular.woff2') format('woff2'),
+        url('DMSans-9ptRegular.woff') format('woff'),
+        url('DMSans-9ptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-ThinItalic.eot');
+    src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-ThinItalic.woff2') format('woff2'),
+        url('Montserrat-ThinItalic.woff') format('woff'),
+        url('Montserrat-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Thin.eot');
+    src: url('Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Thin.woff2') format('woff2'),
+        url('Montserrat-Thin.woff') format('woff'),
+        url('Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
