@@ -491,3 +491,65 @@ h2 {
 .our-customers .right-block .persons .person .name {
   padding-bottom: 6px;
 }
+
+.subscription {
+  background-color: #F4F6F6;
+  padding: 70px 300px 55px;
+  margin-bottom: 140px;
+}
+.subscription .title,
+.subscription .text,
+.subscription #register {
+  margin: 0 auto;
+}
+.subscription .title,
+.subscription .text {
+  text-align: center;
+  color: #222222;
+}
+.subscription .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 48px;
+  width: 580px;
+}
+.subscription .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 480px;
+  padding: 20px 0 40px;
+}
+.subscription #register {
+  width: 472px;
+  height: 67px;
+  padding: 7px 20px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #BABABA;
+  vertical-align: middle;
+}
+.subscription #register i {
+  color: #7f7f7f;
+  vertical-align: middle;
+}
+.subscription #register input {
+  height: 100%;
+}
+.subscription #register #mail-reg {
+  width: 275px;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+}
+.subscription #register #button-reg {
+  background-color: #305F64;
+  padding: 15px 32px;
+  color: #FFFFFF;
+  border: 1px solid #305F64;
+  transition: all 0.3s;
+}
+.subscription #register #button-reg:hover {
+  background-color: #fff;
+  color: #222222;
+}
