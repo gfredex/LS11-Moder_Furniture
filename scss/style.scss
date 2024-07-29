@@ -198,11 +198,11 @@ h2 {
     margin-bottom: 175px;
 
     .img-item {
+        margin-right: 135px;
+
         img {
             box-shadow: 35px 35px #DEE4E2, 0 35px #DEE4E2;
         }
-
-        margin-right: 135px;
     }
 
     .text-item {
@@ -365,7 +365,7 @@ h2 {
 }
 
 .all-furniture {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
     .title {
         text-align: center;
@@ -519,4 +519,83 @@ h2 {
 
     }
 
+}
+
+.our-customers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 140px;
+
+    .left-block {
+        display: flex;
+        align-items: center;
+
+        .img-item {
+            padding-left: 105px;
+        }
+
+        .back-block {
+            width: 490px;
+            height: 490px;
+            border-radius: 50%;
+            background-color: $color-logo;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    .right-block {
+        .title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            max-width: 375px;
+            color: $title-text1;
+        }
+
+        .text {
+            font-size: 20px;
+            line-height: 27px;
+            color: $darck-text2;
+            padding: 20px 0 40px;
+        }
+
+        .persons {
+            display: flex;
+            justify-content: start;
+
+            .person {
+                width: 130px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+                color: #000000;
+
+                .avatar {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .name {
+
+                    padding-bottom: 6px;
+                }
+            }
+        }
+    }
 }
