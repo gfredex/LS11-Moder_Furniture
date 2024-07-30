@@ -675,5 +675,152 @@ h2 {
 
 .footer {
     background-color: $footer-bg;
+    color: $light-text;
 
+    .total-block {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 40px;
+
+        .dube-shape {
+            width: 305px;
+
+            .title {
+                font-family: "Montserrat", sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 125%;
+            }
+
+            .text {
+                font-size: 18px;
+                line-height: 26px;
+                margin: 25px 0 40px;
+            }
+
+            .social {
+                .title {
+                    font-size: 20px;
+                    line-height: 26px;
+                    padding-bottom: 20px;
+                }
+
+                .icons {
+                    width: 125px;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+
+                    .icon-circle {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: $light-text;
+                        text-align: center;
+                        vertical-align: middle;
+                        font-size: 14px;
+
+
+                        .icon {
+                            line-height: 20px;
+                        }
+                    }
+
+                    .tw {
+                        font-size: 12px;
+                    }
+
+                    .icon-inst::before {
+                        color: $footer-bg;
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+
+                    .youtube {
+                        font-size: 10px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+
+        .tour,
+        .company {
+
+            .title {
+                font-family: "Montserrat", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+            }
+
+            .menu {
+                padding-top: 24px;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                a {
+                    text-decoration: none;
+                    color: $light-text;
+                    font-size: 18px;
+                    line-height: 120%;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .subscrible {
+            width: 253px;
+
+            .title {
+                font-family: "Montserrat", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+            }
+
+            .text {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23px;
+                padding: 24px 0 40px;
+            }
+
+            #form-footer {
+                width: 100%;
+                height: 48px;
+                padding: 10px 12px;
+                background-color: $light-text;
+                display: flex;
+                justify-content: space-between;
+
+
+                input {
+                    height: 28px;
+                    margin-left: 12px;
+                    width: 180px;
+                    font-family: "DM Sans", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20.83px;
+                }
+
+                button {
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    background-color: #FFB624;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        line-height: 63px;
+        font-size: 18px;
+        border-top: 1px solid #407980;
+    }
 }

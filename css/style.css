@@ -556,4 +556,126 @@ h2 {
 
 .footer {
   background-color: #305F64;
+  color: #FFFFFF;
+}
+.footer .total-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 40px;
+}
+.footer .total-block .dube-shape {
+  width: 305px;
+}
+.footer .total-block .dube-shape .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.footer .total-block .dube-shape .text {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 25px 0 40px;
+}
+.footer .total-block .dube-shape .social .title {
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.footer .total-block .dube-shape .social .icons {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.footer .total-block .dube-shape .social .icons .icon-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.footer .total-block .dube-shape .social .icons .icon-circle .icon {
+  line-height: 20px;
+}
+.footer .total-block .dube-shape .social .icons .tw {
+  font-size: 12px;
+}
+.footer .total-block .dube-shape .social .icons .icon-inst::before {
+  color: #305F64;
+  font-size: 13px;
+  line-height: 22px;
+}
+.footer .total-block .dube-shape .social .icons .youtube {
+  font-size: 10px;
+  line-height: 22px;
+}
+.footer .total-block .tour .title,
+.footer .total-block .company .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.footer .total-block .tour .menu,
+.footer .total-block .company .menu {
+  padding-top: 24px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer .total-block .tour .menu a,
+.footer .total-block .company .menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+}
+.footer .total-block .subscrible {
+  width: 253px;
+}
+.footer .total-block .subscrible .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.footer .total-block .subscrible .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  padding: 24px 0 40px;
+}
+.footer .total-block .subscrible #form-footer {
+  width: 100%;
+  height: 48px;
+  padding: 10px 12px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .total-block .subscrible #form-footer input {
+  height: 28px;
+  margin-left: 12px;
+  width: 180px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.83px;
+}
+.footer .total-block .subscrible #form-footer button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #FFB624;
+}
+.footer .copyright {
+  text-align: center;
+  line-height: 63px;
+  font-size: 18px;
+  border-top: 1px solid #407980;
 }
