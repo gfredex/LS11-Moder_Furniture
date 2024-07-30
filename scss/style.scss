@@ -31,8 +31,7 @@ h2 {
 }
 
 .header,
-.main,
-.footer {
+.main {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -674,6 +673,7 @@ h2 {
 }
 
 .footer {
+    width: 100%;
     background-color: $footer-bg;
     color: $light-text;
 
